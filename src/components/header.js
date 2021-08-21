@@ -1,3 +1,6 @@
+import React from "react";
+import "./header.css";
+
 function header() {
     return (
         <nav class="navbar navbar-expand-xl navbar-dark">
@@ -25,3 +28,5 @@ function header() {
       </nav>
     )
 }
+
+export default header;

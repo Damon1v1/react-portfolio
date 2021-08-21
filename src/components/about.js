@@ -1,4 +1,7 @@
-function About() {
+import React from "react";
+import "./about.css";
+
+function about() {
     return (
         <main class="container">
         <div class="card mb-3 col-lg-10" style="max-width: 800px;">
@@ -27,4 +30,4 @@ function About() {
     );
 }
 
-export default About;
+export default about;
