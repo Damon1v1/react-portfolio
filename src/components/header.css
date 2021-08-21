@@ -1,0 +1,13 @@
+.navbar .navbar-brand {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    color: rgb(219, 219, 219);
+    background: rgb(0, 0, 0);
+  }
+  
+  .navbar {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background: rgb(0, 0, 0);
+    border: whitesmoke;
+  }
