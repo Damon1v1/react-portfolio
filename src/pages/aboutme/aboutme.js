@@ -8,3 +8,5 @@ function Aboutme() {
         <Aboutme></Aboutme>
     </Row>
 }
+
+export default Aboutme;
