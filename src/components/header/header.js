@@ -1,7 +1,7 @@
 import React from "react";
 import "./header.css";
 
-function header() {
+function Header() {
     return (
         <nav class="navbar navbar-expand-xl navbar-dark">
         <div class="container">
@@ -29,4 +29,4 @@ function header() {
     )
 }
 
-export default header;
+export default Header;
