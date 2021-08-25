@@ -1,7 +1,7 @@
 import React from "react";
 import "./footer.css";
 
-function footer() {
+function Footer() {
     return (
         <footer class="navbar fixed-bottom navbar-light bg-light">
           <h2 class="navbar-text">
@@ -11,4 +11,4 @@ function footer() {
     );
 };
 
-export default footer;
+export default Footer;
