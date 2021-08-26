@@ -4,11 +4,18 @@ import React from "react";
 function Contact() {
     
     function sendEmail(e) {
+        e.preventDefault();
 
+        emailjs.sendForm('gmail', 'template_xyz2ifp', e.target, 'user_SRRmmWyKKFX7KcIeNiaLa')
+            .then((result) => {
+            console.log(result.text);
+            }, (error) => {
+            console.log(error.text);
+            });
     };
 
     return (
-      <form class="block form-horizontal" id="contact-form">
+      <form class="block form-horizontal" id="contact-form" onSubmit={sendEmail}>
         <h1 class="block-header">Contact</h1>
         <hr />
         <div class="mb-3">
@@ -33,3 +40,5 @@ function Contact() {
       </form>
     );
 };
+
+export default Contact;
