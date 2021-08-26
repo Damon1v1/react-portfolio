@@ -4,6 +4,7 @@ import './App.css';
 import Aboutme from "./pages/aboutme/aboutme";
 import Header from "./components/header/header";
 import Footer from "./components/footer/footer";
+import Contact from "./pages/contact/Contact";
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <div className="container">
         <Switch>
           <Route exact path="/" component={Aboutme} />
+          <Route exact path="/contact" component={Contact} />
         </Switch>
       </div>
       <Footer/>
