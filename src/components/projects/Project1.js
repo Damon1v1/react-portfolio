@@ -24,7 +24,13 @@ const Project1 = () => {
             from="bottom"
             width="100%"
             onRequestClose={() => setState({ isPaneOpenBottom: false })}>
-                
+                <div>
+                    <p>
+                        Application that reccomends movies to the user to watch based on questionnaire responses;
+                        you can view the respository and deployment of the live application 
+                        <a href="https://github.com/Damon1v1/Movie-Recommender">here.</a>
+                    </p>
+                </div>
             </SlidingPane>
         </div>
     )
