@@ -3,7 +3,7 @@ import SlidingPane from "react-sliding-pane";
 import "react-sliding-pane/dist/react-sliding-pane.css";
 import "./Pane.css";
 
-const Project1 = () => {
+const Project2 = () => {
     //this state might be for if another pane component is also in use
     //might be a source for error in the future
     const [state, setState] = useState({
@@ -26,9 +26,9 @@ const Project1 = () => {
             onRequestClose={() => setState({ isPaneOpenBottom: false })}>
                 <div>
                     <p>
-                        Application that reccomends movies to the user to watch based on questionnaire responses;
-                        you can view the respository and deployment of the live application 
-                        <a href="https://github.com/Damon1v1/Movie-Recommender">here.</a>
+                        Mock-up application for a bakery. Allows users to sign in for rewards to be used on
+                        various kringle products. Check out our repo and deployment
+                        <a href="https://github.com/Damon1v1/Release-The-Kringle">here</a>
                     </p>
                 </div>
             </SlidingPane>
@@ -36,4 +36,4 @@ const Project1 = () => {
     )
 };
 
-export default Project1;
+export default Project2;
