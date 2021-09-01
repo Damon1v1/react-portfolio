@@ -4,12 +4,12 @@ import "./about.css";
 function About() {
     return (
         <main class="container">
-        <div class="card mb-3 col-lg-10" style="max-width: 800px;">
+        <div class="card">
             <div class="row g-0">
-              <div class="col-md-4">
+              <div class="">
                 <img class="portrait" src="images/artwork6.png" alt="Self-portrait" />
               </div>
-              <div class="col-md-8">
+              <div class="">
                 <div class="card-body">
                   <h5 class="card-title">About Me</h5>
                   <p class="card-text">Web developer from a food service background consolidating leadership, teamwork skills, 

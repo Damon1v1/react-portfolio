@@ -1,5 +1,5 @@
 import  React from "react";
-import { Row, Col } from "react-bootstrap";
+import { Row } from "react-bootstrap";
 import "./contact.css";
 import "../../components/contactForm/ContactForm";
 import ContactForm from "../../components/contactForm/ContactForm";
