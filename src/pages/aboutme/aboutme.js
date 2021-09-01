@@ -4,9 +4,11 @@ import "./aboutme.css";
 import "../../components/about/About";
 
 function Aboutme() {
-    <Row className="justify-content-center">
-        <Aboutme></Aboutme>
-    </Row>
+    return(
+        <Row className="justify-content-center">
+            <Aboutme></Aboutme>
+        </Row>
+    )
 }
 
 export default Aboutme;

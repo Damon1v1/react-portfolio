@@ -5,9 +5,12 @@ import "../../components/contactForm/ContactForm";
 import ContactForm from "../../components/contactForm/ContactForm";
 
 function Contact() {
-    <Row className="justify-content-center">
-        <ContactForm></ContactForm>
-    </Row>
+    return (
+        <Row className="justify-content-center">
+            <ContactForm></ContactForm>
+        </Row>
+    )
+
 };
 
 export default Contact;
