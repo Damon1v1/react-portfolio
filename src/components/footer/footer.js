@@ -3,8 +3,8 @@ import "./footer.css";
 
 function Footer() {
     return (
-        <footer class="navbar fixed-bottom navbar-light bg-light">
-          <h2 class="navbar-text">
+        <footer className="navbar fixed-bottom navbar-light bg-light">
+          <h2 className="navbar-text">
             Damon1v1 on Github
           </h2>
       </footer>
