@@ -4,9 +4,9 @@ import "./header.css";
 
 function Header() {
     return (
-        <Navbar bg="light" expand="lg">
+        <Navbar expand="lg">
         <Container>
-        <Navbar.Brand href="#home">Damon Burda</Navbar.Brand>
+        <Navbar.Brand href="/">Damon Burda</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="me-auto">
@@ -17,7 +17,7 @@ function Header() {
     </Navbar.Collapse>
   </Container>
 </Navbar>
-    )
+  )
 }
 
 export default Header;
