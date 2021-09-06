@@ -6,12 +6,15 @@ import Header from "./components/header/Header";
 import Footer from "./components/footer/Footer";
 import Contact from "./pages/contact/Contact";
 import Portfolio from "./pages/portfolio/Portfolio";
+import WebsiteBG from "./websitebg.jpg";
+
+
 
 function App() {
   return (
     <Router>
       <Header/>
-      <div className="container">
+      <div className="container" style={{ backgroundImage: `url(${WebsiteBG})` }}>
         <Switch>
           <Route exact path="/" component={Aboutme} />
           <Route exact path="/contact" component={Contact} />
