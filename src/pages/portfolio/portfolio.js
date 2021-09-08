@@ -1,7 +1,7 @@
 import React from "react";
-import "./portfolio.css"
-import Project1 from "../../components/projects/Project1"
-import Project2 from "../../components/projects/Project2"
+import "./portfolio.css";
+import Project1 from "./project1.png";
+import Project2 from ".project2.png";
 // import Project3 from "../../components/projects/project3"
 
 function Portfolio() {
@@ -15,7 +15,7 @@ function Portfolio() {
                     <div className="row">
                       <h2 className="col-sm-12" id="project-title">Movie Recommender</h2>
                       <div className="col-lg-12"></div>
-                      <img src="images/project1.png" alt="Movie Recommender" className="img-fluid port-image" id="project-img" />
+                      <img src={Project1} alt="Movie Recommender" className="img-fluid port-image" id="project-img" />
                       <p id="project-description">Application that reccomends movies to the user to watch based on questionnaire responses;
                         you can view the respository and deployment of the live application 
                        <Project1></Project1>
@@ -25,7 +25,7 @@ function Portfolio() {
                     <div Name="row">
                       <h2 className="col-sm-12" id="project-title">Release The Kringle!</h2>
                       <div className="col-lg-12"></div>
-                      <img src="images/project2.png" alt="Release The Kringle home page" className="img-fluid port-image" id="project2-img" />
+                      <img src={Project2} alt="Release The Kringle home page" className="img-fluid port-image" id="project2-img" />
                       <p id="project-description"> Mock-up application for a bakery. Allows users to sign in for rewards to be used on
                         various kringle products. Check out our repo and deployment
                         <Project2></Project2>
