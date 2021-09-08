@@ -1,13 +1,14 @@
 import React from "react";
 import {Card, Button} from "react-bootstrap";
+import Damon from "./Damon.jpg";
 import "./about.css";
 
 function About() {
     return (
       <Card style={{ width: '18rem' }}>
-        <Card.Img variant="top" src="holder.js/100px180" />
+        <Card.Img variant="top" src={Damon} />
         <Card.Body>
-          <Card.Title>Card Title</Card.Title>
+          <Card.Title>Damon Burda</Card.Title>
           <Card.Text>
                     Web developer from a food service background consolidating leadership, teamwork skills, 
                     and quick problem solving ability from a fast-paced work environment to build a sleek and 
@@ -17,7 +18,7 @@ function About() {
                     Education and certifications in full-stack development and computer information systems from 
                     University of California Irvine and Lewis & Clark Technical School. Skills in HTML, CSS, JavaScript, and Python..
           </Card.Text>
-        <Button variant="primary">Go somewhere</Button>
+        <Button variant="dark" href="/contact">Contact Me</Button>
       </Card.Body>
     </Card>
     );
