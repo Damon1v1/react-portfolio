@@ -1,9 +1,7 @@
 import React from "react";
-import {Card, Button, Image, Row, Col} from "react-bootstrap";
+import {Card, Row, Col} from "react-bootstrap";
 import Damon from "./Damon.png";
 import Banner from "./Banner1.png";
-import Github from "./github_badge.png";
-import LinkedIn from "./linkedin_badge.png";
 import "./about.css";
 
 function About() {
@@ -34,11 +32,6 @@ function About() {
                       University of California Irvine and Lewis & Clark Technical School. Skills in HTML, CSS, JavaScript, and Python..
             </Card.Text></Col>
         </Card.Body></Row>
-        <Row>
-          <Col xs={1}><Button variant="dark" href="https://github.com/Damon1v1"><Image src={Github} ></Image></Button></Col>
-          <Col xs={1}><Button variant="dark" href="https://www.linkedin.com/in/damon-burda-4ab6a01b7/"><Image src={LinkedIn}></Image></Button></Col>
-          <Col xs={2}><Button variant="primary" href="/contact" style={{ float: "right" }}>Contact Me</Button></Col>
-        </Row>
       </Card>
     ))
     );
