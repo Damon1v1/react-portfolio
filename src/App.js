@@ -3,26 +3,23 @@ import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
 import Aboutme from "./pages/aboutme/Aboutme";
-import Header from "./components/header/Header";
-import Footer from "./components/footer/Footer";
 import Contact from "./pages/contact/Contact";
-import WebsiteBG from "./websitebg.jpg";
+//import WebsiteBG from "./websitebg";
+
 
 
 
 function App() {
   return (
     <Router>
-      <Header/>
-      <div className="container" style={{ backgroundImage: `url(${WebsiteBG})` }}>
+      <div className="container">
         <Switch>
           <Route exact path="/" component={Aboutme} />
           <Route exact path="/contact" component={Contact} />
         </Switch>
       </div>
-      <Footer/>
     </Router>
   );
-}
+};
 
 export default App;
