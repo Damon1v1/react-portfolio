@@ -1,18 +1,29 @@
 import React from "react";
-import {Card, Button, Container, Row, Col} from "react-bootstrap";
-import Damon from "./Damon.jpg";
-import Banner from "./Banner.png";
+import {Card, Button, Image, Row, Col} from "react-bootstrap";
+import Damon from "./Damon.png";
+import Banner from "./Banner1.png";
+import Github from "./github_badge.png";
+import LinkedIn from "./linkedin_badge.png";
 import "./about.css";
 
 function About() {
     return (
-        <Card style={{ width: '100rem' }}>
+      [
+        'Dark'
+      ].map((variant, idx) => (
+        <Card
+          bg={variant.toLowerCase()}
+          key={idx}
+          text={variant.toLowerCase() === 'light' ? 'dark' : 'white'}
+          style={{ width: '100rem' }}
+          className="mb-2"
+        >
           <Row>
-          <Col xs={4}><Card.Img src={Damon} /></Col>
-          <Col xs={8}><Card.Img src={Banner} /></Col>
+          <Col xs={3}><Card.Img src={Damon} className="portrait" style={{ height: "95%" }} /></Col>
+          <Col xs={9}><Card.Img src={Banner} className="banner" style={{ height: "95%" }} /></Col>
           </Row>
-            <Card.Body>
-            <Col xs={8}>
+            <Row><Card.Body>
+            <Col xs={12}>
             <Card.Text>
                       Web developer from a food service background consolidating leadership, teamwork skills, 
                       and quick problem solving ability from a fast-paced work environment to build a sleek and 
@@ -22,10 +33,14 @@ function About() {
                       Education and certifications in full-stack development and computer information systems from 
                       University of California Irvine and Lewis & Clark Technical School. Skills in HTML, CSS, JavaScript, and Python..
             </Card.Text></Col>
-          <Button variant="dark" href="/contact">Contact Me</Button>
-        </Card.Body>
-
+        </Card.Body></Row>
+        <Row>
+          <Col xs={1}><Button variant="dark" href="https://github.com/Damon1v1"><Image src={Github} ></Image></Button></Col>
+          <Col xs={1}><Button variant="dark" href="https://www.linkedin.com/in/damon-burda-4ab6a01b7/"><Image src={LinkedIn}></Image></Button></Col>
+          <Col xs={2}><Button variant="primary" href="/contact" style={{ float: "right" }}>Contact Me</Button></Col>
+        </Row>
       </Card>
+    ))
     );
 }
 
