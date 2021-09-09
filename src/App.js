@@ -2,7 +2,7 @@ import React from "react";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
-import Aboutme from "./pages/aboutme/Aboutme";
+import Home from "./pages/home/Home";
 import Contact from "./pages/contact/Contact";
 //import WebsiteBG from "./websitebg";
 
@@ -14,7 +14,7 @@ function App() {
     <Router>
       <div className="container">
         <Switch>
-          <Route exact path="/" component={Aboutme} />
+          <Route exact path="/" component={Home} />
           <Route exact path="/contact" component={Contact} />
         </Switch>
       </div>
