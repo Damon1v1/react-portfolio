@@ -1,11 +1,11 @@
 import  React from "react";
 import { Row } from "react-bootstrap";
-import "./aboutme.css";
+import "./home.css";
 import "../../components/about/About";
 import About from "../../components/about/About";
 import Portfolio from "../portfolio/Portfolio";
 
-function Aboutme() {
+function Home() {
     return(
         <div>
             <div><Row className="justify-content-center">
@@ -21,4 +21,4 @@ function Aboutme() {
     )
 }
 
-export default Aboutme;
+export default Home;
