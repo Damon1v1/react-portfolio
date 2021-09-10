@@ -4,6 +4,7 @@ import "./home.css";
 import "../../components/about/About";
 import About from "../../components/about/About";
 import Portfolio from "../portfolio/Portfolio";
+import Links from "../../components/links/Links"
 
 function Home() {
     return(
@@ -15,6 +16,12 @@ function Home() {
             <div>
                 <Row>
                     <Portfolio></Portfolio>
+                </Row>
+            </div>
+
+            <div>
+                <Row>
+                    <Links></Links>
                 </Row>
             </div>
         </div>
