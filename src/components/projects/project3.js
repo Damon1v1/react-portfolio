@@ -1,4 +1,5 @@
 import React, {useState} from "react";
+import { Button } from "react-bootstrap";
 import SlidingPane from "react-sliding-pane";
 import "react-sliding-pane/dist/react-sliding-pane.css";
 import "./Pane.css";
@@ -12,9 +13,9 @@ const Project3 = () => {
     return (
         <div>
             <div>
-                <button onClick={() => setState({ isPaneOpenBottom: true})}>
+                <Button variant="dark" onClick={() => setState({ isPaneOpenBottom: true})}>
                     Click here for details
-                </button>
+                </Button>
             </div>
             <SlidingPane 
             closeIcon={<div>X</div>}
