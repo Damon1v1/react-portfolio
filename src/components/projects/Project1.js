@@ -13,7 +13,7 @@ const Project1 = () => {
     return (
         <div>
             <div>
-                <Button onClick={() => setState({ isPaneOpenBottom: true})}>
+                <Button variant="dark" onClick={() => setState({ isPaneOpenBottom: true})}>
                     Click here for details
                 </Button>
             </div>
@@ -29,7 +29,7 @@ const Project1 = () => {
                     <p>
                         Application that reccomends movies to the user to watch based on questionnaire responses;
                         you can view the respository and deployment of the live application 
-                        <a href="https://github.com/Damon1v1/Movie-Recommender">here.</a>
+                        <a href="https://github.com/Damon1v1/Movie-Recommender"> here.</a>
                     </p>
                 </div>
             </SlidingPane>

@@ -18,9 +18,23 @@ function Portfolio() {
                   Some quick example text to build on the card title and make up the bulk of
                   the card's content.
                 </Card.Text>
-                <Project1> Go somewhere </Project1>
+                <Project1 />
               </Card.Body>
             </Card>
+
+
+            <Card style={{ width: '40rem' }}>
+              <Card.Img variant="top" src={Kringle} />
+              <Card.Body>
+                <Card.Title>Card Title</Card.Title>
+                <Card.Text>
+                  Some quick example text to build on the card title and make up the bulk of
+                  the card's content.
+                </Card.Text>
+                <Project2 />
+              </Card.Body>
+            </Card>
+
         </article>
     )
 };

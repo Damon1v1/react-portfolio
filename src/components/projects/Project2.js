@@ -1,4 +1,5 @@
 import React, {useState} from "react";
+import { Button } from "react-bootstrap"; 
 import SlidingPane from "react-sliding-pane";
 import "react-sliding-pane/dist/react-sliding-pane.css";
 import "./Pane.css";
@@ -12,9 +13,9 @@ const Project2 = () => {
     return (
         <div>
             <div>
-                <button onClick={() => setState({ isPaneOpenBottom: true})}>
+                <Button variant="dark" onClick={() => setState({ isPaneOpenBottom: true})}>
                     Click here for details
-                </button>
+                </Button>
             </div>
             <SlidingPane 
             closeIcon={<div>X</div>}
@@ -27,8 +28,8 @@ const Project2 = () => {
                 <div>
                     <p>
                         Mock-up application for a bakery. Allows users to sign in for rewards to be used on
-                        various kringle products. Check out our repo and deployment
-                        <a href="https://github.com/Damon1v1/Release-The-Kringle">here</a>
+                        various kringle products. Check out our repo and deployment 
+                        <a href="https://github.com/Damon1v1/Release-The-Kringle"> here</a>
                     </p>
                 </div>
             </SlidingPane>
