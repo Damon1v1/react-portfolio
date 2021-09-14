@@ -1,5 +1,5 @@
 import React from "react";
-import { Card,Button, Row, Col } from "react-bootstrap";
+import { Card, Row, Col } from "react-bootstrap";
 import Project1 from "../../components/projects/Project1";
 import Project2 from "../../components/projects/Project2";
 import Movieferee from "./project1.png";
@@ -9,8 +9,9 @@ import "./portfolio.css"
 
 function Portfolio() {
     return(
-        <article className="block" >
-            <Card style={{ width: '40rem' }}>
+        <article className="block" ><Row>
+            
+            <Col xl="4"><Card style={{ width: '40rem' }}> 
               <Card.Img variant="top" src={Movieferee} />
               <Card.Body>
                 <Card.Title>Card Title</Card.Title>
@@ -20,10 +21,10 @@ function Portfolio() {
                 </Card.Text>
                 <Project1 />
               </Card.Body>
-            </Card>
+            </Card></Col>
 
 
-            <Card style={{ width: '40rem' }}>
+            <Col xl="4"><Card style={{ width: '40rem' }}>
               <Card.Img variant="top" src={Kringle} />
               <Card.Body>
                 <Card.Title>Card Title</Card.Title>
@@ -33,9 +34,9 @@ function Portfolio() {
                 </Card.Text>
                 <Project2 />
               </Card.Body>
-            </Card>
+            </Card></Col> 
 
-        </article>
+        </Row></article>
     )
 };
 
