@@ -15,11 +15,7 @@ function Portfolio() {
             <Col xl="4"><Card style={{ width: '40rem' }}> 
               <Card.Img variant="top" src={Movieferee} />
               <Card.Body>
-                <Card.Title>Card Title</Card.Title>
-                <Card.Text>
-                  Some quick example text to build on the card title and make up the bulk of
-                  the card's content.
-                </Card.Text>
+                <Card.Title style={{ fontSize:"2rem" }}>Movieferee</Card.Title>
                 <Project1 />
               </Card.Body>
             </Card></Col>
@@ -27,11 +23,7 @@ function Portfolio() {
             <Col xl="4"><Card style={{ width: '40rem' }}>
               <Card.Img variant="top" src={Kringle} />
               <Card.Body>
-                <Card.Title>Card Title</Card.Title>
-                <Card.Text>
-                  Some quick example text to build on the card title and make up the bulk of
-                  the card's content.
-                </Card.Text>
+                <Card.Title style={{ fontSize:"2rem" }}>Release The Kringle!</Card.Title>
                 <Project2 />
               </Card.Body>
             </Card></Col> 
@@ -39,15 +31,10 @@ function Portfolio() {
             <Col xl="4"><Card style={{ width: '40rem' }}>
               <Card.Img variant="top" src={Bandstand} />
               <Card.Body>
-                <Card.Title>Card Title</Card.Title>
-                <Card.Text>
-                  Some quick example text to build on the card title and make up the bulk of
-                  the card's content.
-                </Card.Text>
+                <Card.Title style={{ fontSize:"2rem" }}>Bandstand</Card.Title>
                 <Project3 />
               </Card.Body>
             </Card></Col> 
-
         </Row></article>
     )
 };
