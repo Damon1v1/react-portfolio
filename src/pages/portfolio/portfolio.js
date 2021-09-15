@@ -12,7 +12,7 @@ function Portfolio() {
     return(
         <article className="block" ><Row>
             
-            <Col xl="4"><Card style={{ width: '40rem' }}> 
+            <Col xl="4"><Card className="project-card" style={{ width: '40rem' }}> 
               <Card.Img variant="top" src={Movieferee} />
               <Card.Body>
                 <Card.Title style={{ fontSize:"2rem" }}>Movieferee</Card.Title>
@@ -20,7 +20,7 @@ function Portfolio() {
               </Card.Body>
             </Card></Col>
 
-            <Col xl="4"><Card style={{ width: '40rem' }}>
+            <Col xl="4"><Card className="project-card" style={{ width: '40rem' }}>
               <Card.Img variant="top" src={Kringle} />
               <Card.Body>
                 <Card.Title style={{ fontSize:"2rem" }}>Release The Kringle!</Card.Title>
@@ -28,7 +28,7 @@ function Portfolio() {
               </Card.Body>
             </Card></Col> 
 
-            <Col xl="4"><Card style={{ width: '40rem' }}>
+            <Col xl="4"><Card className="project-card" style={{ width: '40rem' }}>
               <Card.Img variant="top" src={Bandstand} />
               <Card.Body>
                 <Card.Title style={{ fontSize:"2rem" }}>Bandstand</Card.Title>
