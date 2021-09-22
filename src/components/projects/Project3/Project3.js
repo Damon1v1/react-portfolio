@@ -2,9 +2,9 @@ import React, {useState} from "react";
 import { Button } from "react-bootstrap";
 import SlidingPane from "react-sliding-pane";
 import "react-sliding-pane/dist/react-sliding-pane.css";
-import "./Pane.css";
+import "../Pane.css";
 
-const Project1 = () => {
+const Project3 = () => {
     //this state might be for if another pane component is also in use
     //might be a source for error in the future
     const [state, setState] = useState({
@@ -21,15 +21,15 @@ const Project1 = () => {
             closeIcon={<div>X</div>}
             className="close"
             isOpen={state.isPaneOpenBottom}
-            title="Movieferee"
+            title="Bandstand"
             from="bottom"
             width="100%"
             onRequestClose={() => setState({ isPaneOpenBottom: false })}>
                 <div>
                     <p>
-                        Application that reccomends movies to the user to watch based on questionnaire responses;
-                        you can view the respository and deployment of the live application 
-                        <a href="https://github.com/Damon1v1/Movie-Recommender"> here.</a>
+                        Lobby for users to connect with each other, chat and listen
+                        to music! You can view the repo and live deployment
+                        <a href="https://github.com/Damon1v1/Bandstand">here.</a>
                     </p>
                 </div>
             </SlidingPane>
@@ -37,4 +37,4 @@ const Project1 = () => {
     )
 };
 
-export default Project1;
+export default Project3;

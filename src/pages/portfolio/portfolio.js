@@ -1,8 +1,8 @@
 import React from "react";
 import { Card, Row, Col } from "react-bootstrap";
-import Project1 from "../../components/projects/Project1";
-import Project2 from "../../components/projects/Project2";
-import Project3 from "../../components/projects/project3";
+import Project1 from "../../components/projects/Project1/Project1";
+import Project2 from "../../components/projects/Project2/Project2";
+import Project3 from "../../components/projects/Project3/Project3";
 import Movieferee from "./project1.png";
 import Kringle from "./project2.png";
 import Bandstand from "./project3.png";
