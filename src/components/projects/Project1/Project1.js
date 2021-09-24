@@ -1,5 +1,7 @@
 import React, {useState} from "react";
 import { Button, Image } from "react-bootstrap";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faTimesCircle } from "@fortawesome/free-solid-svg-icons";
 import SlidingPane from "react-sliding-pane";
 import "react-sliding-pane/dist/react-sliding-pane.css";
 import Project1a from "./Project1a.png";
@@ -20,7 +22,7 @@ const Project1 = () => {
                 </Button>
             </div>
             <SlidingPane 
-            closeIcon={<div>X</div>}
+            closeIcon={<div><FontAwesomeIcon icon={faTimesCircle} /></div>}
             className="close"
             isOpen={state.isPaneOpenBottom}
             title="Movieferee"
