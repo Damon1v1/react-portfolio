@@ -3,6 +3,8 @@ import { Button, Image } from "react-bootstrap";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faTimesCircle } from "@fortawesome/free-solid-svg-icons";
 import SlidingPane from "react-sliding-pane";
+import Project2a from "./Project2a.png";
+import Project2b from "./Project2b.png";
 import "react-sliding-pane/dist/react-sliding-pane.css";
 import "../Pane.css";
 
@@ -46,6 +48,8 @@ const Project2 = () => {
                     <p>You can view the repository and live deployment <a href="https://github.com/Damon1v1/Release-The-Kringle"> here</a>.</p>
                     <br/>
                     <h2>Mock-Up</h2>
+                    <Image src={Project2a} className="Project2a" />
+                    <Image src={Project2b} className="Project2b" />
                     <br/>
                     <h2>Credits</h2>
                     <h3>Damon Burda</h3>
