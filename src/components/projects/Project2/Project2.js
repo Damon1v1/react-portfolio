@@ -44,6 +44,27 @@ const Project2 = () => {
                     <br/>
                     <h2>Deployment</h2>
                     <p>You can view the repository and live deployment <a href="https://github.com/Damon1v1/Release-The-Kringle"> here</a>.</p>
+                    <br/>
+                    <h2>Mock-Up</h2>
+                    <br/>
+                    <h2>Credits</h2>
+                    <h3>Damon Burda</h3>
+                    <ul>
+                        <li><a href="https://github.com/Damon1v1">Github</a></li>
+                        <li><a href="https://www.linkedin.com/in/damon-burda-4ab6a01b7/">LinkedIn</a></li>
+                    </ul>
+                    <h3>Kristina Wallace</h3>
+                    <ul>
+                        <li><a href="https://github.com/kjwallac">Github</a></li>
+                    </ul>
+                    <h3>Brett Roeder</h3>
+                    <ul>
+                        <li><a href="https://github.com/mirewolf">Github</a></li>
+                    </ul>
+                    <h3>Jessica Chen</h3>
+                    <ul>
+                        <li><a href="https://github.com/jiayc1">Github</a></li>
+                    </ul>
                 </div>
             </SlidingPane>
         </div>
