@@ -15,6 +15,7 @@ function About() {
           text={variant.toLowerCase() === 'light' ? 'dark' : 'white'}
           style={{ width: '100rem' }}
           className="mb-2"
+          id="about"
         >
           <Row>
           <Col xs={3}><Card.Img src={Damon} className="portrait" style={{ height: "95%" }} /></Col>

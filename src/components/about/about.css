@@ -1,4 +1,8 @@
 .bg-dark {
-    --bs-bg-opacity: 0
+    --bs-bg-opacity: 0;
+    /* right: 50%;
+    bottom: 50%;
+    transform: translate(50%,50%);
+    position: absolute; */
 };
 
