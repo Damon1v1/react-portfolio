@@ -7,7 +7,7 @@ div[data-reactroot] {
       min-height: 100vh;
       flex-direction: column;
       font-size: 62.5%;
-      background-image: url(./gradient.png);
+      background-color: whitesmoke;
       background-repeat: no-repeat;
       font-family: "Open Sans", sans-serif;
       line-height: 2;
