@@ -5,3 +5,8 @@
     transform: translate(50%,50%);
     position: absolute; */
 };
+
+.portrait {
+    margin: auto;
+    width: 50%;
+}

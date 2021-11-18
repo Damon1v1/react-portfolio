@@ -18,8 +18,10 @@ function About() {
           id="about"
         >
           <Row>
-          <Col xs={3}><Card.Img src={Damon} className="portrait" style={{ height: "95%" }} /></Col>
-          <Col xs={9}><Card.Img src={Banner} className="banner" style={{ height: "95%" }} /></Col>
+          <Col><Card.Img src={Damon} className="portrait" style={{ height: "95%" }} /></Col>
+          </Row>
+          <Row>
+          <Col xs={12}><Card.Img src={Banner} className="banner" style={{ height: "95%" }} /></Col>
           </Row>
             <Row><Card.Body>
             <Col xs={12}>
