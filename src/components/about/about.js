@@ -7,12 +7,12 @@ import "./about.css";
 function About() {
     return (
       [
-        'Dark'
+        'light'
       ].map((variant, idx) => (
         <Card
           bg={variant.toLowerCase()}
           key={idx}
-          text={variant.toLowerCase() === 'light' ? 'dark' : 'white'}
+          text={variant.toLowerCase() === 'dark' ? 'dark' : 'black'}
           style={{ width: '100rem' }}
           className="mb-2"
           id="about"
