@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Zen+Kaku+Gothic+Antique:wght@300&display=swap');
+
 .bg-light {
     --bs-bg-opacity: 0;
     /* right: 50%;
@@ -9,4 +12,15 @@
 .portrait {
     margin: auto;
     width: 50%;
+}
+
+#banner {
+    text-align: center;
+    font-family: 'Bebas Neue', cursive;
+}
+
+#bio {
+    font-family: 'Bebas Neue', cursive;
+
+    font-family: 'Zen Kaku Gothic Antique', sans-serif;
 }
