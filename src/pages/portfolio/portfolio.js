@@ -10,12 +10,15 @@ import "./portfolio.css"
 
 function Portfolio() {
     return(
-        <article className="block" ><Row>
+        <article className="block" >
+          <Row>
+            <div id="PortfolioHead">Portfolio</div>
+          </Row>
+          <Row>
             
             <Col xl="4"><Card className="project-card" style={{ width: '40rem' }}> 
               <Card.Img variant="top" src={Movieferee} />
               <Card.Body>
-                <Card.Title style={{ fontSize:"2rem" }}>Movieferee</Card.Title>
                 <Project1 />
               </Card.Body>
             </Card></Col>
@@ -23,7 +26,6 @@ function Portfolio() {
             <Col xl="4"><Card className="project-card" style={{ width: '40rem' }}>
               <Card.Img variant="top" src={Kringle} />
               <Card.Body>
-                <Card.Title style={{ fontSize:"2rem" }}>Release The Kringle!</Card.Title>
                 <Project2 />
               </Card.Body>
             </Card></Col> 
@@ -31,7 +33,6 @@ function Portfolio() {
             <Col xl="4"><Card className="project-card" style={{ width: '40rem' }}>
               <Card.Img variant="top" src={Bandstand} />
               <Card.Body>
-                <Card.Title style={{ fontSize:"2rem" }}>Bandstand</Card.Title>
                 <Project3 />
               </Card.Body>
             </Card></Col> 

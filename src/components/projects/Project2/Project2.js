@@ -17,8 +17,8 @@ const Project2 = () => {
     return (
         <div>
             <div>
-                <Button variant="dark" onClick={() => setState({ isPaneOpenBottom: true})}>
-                    Click here for details
+                <Button variant="dark" id="Button" onClick={() => setState({ isPaneOpenBottom: true})}>
+                    Release The Kringle!
                 </Button>
             </div>
             <SlidingPane 
@@ -48,8 +48,8 @@ const Project2 = () => {
                     <p>You can view the repository and live deployment <a href="https://github.com/Damon1v1/Release-The-Kringle"> here</a>.</p>
                     <br/>
                     <h2>Mock-Up</h2>
-                    <Image src={Project2a} id="Project2"></Image>
-                    <Image src={Project2b} id="Project2"></Image>
+                    <Image src={Project2a} id="Project2" />
+                    <Image src={Project2b} id="Project2" />
                     <br/>
                     <h2>Credits</h2>
                     <h3>Damon Burda</h3>

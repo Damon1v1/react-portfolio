@@ -16,8 +16,8 @@ const Project3 = () => {
     return (
         <div>
             <div>
-                <Button variant="dark" onClick={() => setState({ isPaneOpenBottom: true})}>
-                    Click here for details
+                <Button variant="dark" id="Button" onClick={() => setState({ isPaneOpenBottom: true})}>
+                    Bandstand
                 </Button>
             </div>
             <SlidingPane 
@@ -42,7 +42,7 @@ const Project3 = () => {
                     </ul>
                     <br/>
                     <h2>Mock-Up</h2>
-                    <Image src={Project3a} className="Project3a" />
+                    <Image src={Project3a} id="Project3" />
                     <br/>
                     <h2>Deployment</h2>
                     <p>You can view the repository and live deployment <a href="https://github.com/Damon1v1/Bandstand"> here</a>.</p>

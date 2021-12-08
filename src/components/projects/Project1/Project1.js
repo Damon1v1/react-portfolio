@@ -17,8 +17,8 @@ const Project1 = () => {
     return (
         <div>
             <div>
-                <Button variant="dark" onClick={() => setState({ isPaneOpenBottom: true})}>
-                    Click here for details
+                <Button variant="dark" id="Button" onClick={() => setState({ isPaneOpenBottom: true})}>
+                    Movieferee
                 </Button>
             </div>
             <SlidingPane 
@@ -46,8 +46,8 @@ const Project1 = () => {
                     </ul>
                     <br/>
                     <h2>Mock-Up</h2>
-                    <Image src={Project1a} id="Project1"></Image>
-                    <Image src={Project1b} id="Project1"></Image>
+                    <Image src={Project1a} id="Project1" />
+                    <Image src={Project1b} id="Project1" />
                     <br/>
                     <h2>Deployment</h2>
                     <p>You can view the repository and deployment <a href="https://github.com/Damon1v1/Movie-Recommender"> here</a>.</p>
