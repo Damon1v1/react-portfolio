@@ -4,19 +4,20 @@
 
 }
 
-#Project1a {
+#Project1 {
     display: block;
     margin-left: auto;
     margin-right: auto;
     width: 80%;
     margin-bottom: 20px;
-
+    height: auto;
 }
 
-#Project1b {
+#Project2 {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 80%;
+    width: 60%;
     margin-bottom: 20px;
+    height: 60%;
 }

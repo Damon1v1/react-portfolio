@@ -46,8 +46,8 @@ const Project1 = () => {
                     </ul>
                     <br/>
                     <h2>Mock-Up</h2>
-                    <Image src={Project1a} id="Project1a"></Image>
-                    <Image src={Project1b} id="Project1b"></Image>
+                    <Image src={Project1a} id="Project1"></Image>
+                    <Image src={Project1b} id="Project1"></Image>
                     <br/>
                     <h2>Deployment</h2>
                     <p>You can view the repository and deployment <a href="https://github.com/Damon1v1/Movie-Recommender"> here</a>.</p>

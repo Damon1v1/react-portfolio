@@ -48,8 +48,8 @@ const Project2 = () => {
                     <p>You can view the repository and live deployment <a href="https://github.com/Damon1v1/Release-The-Kringle"> here</a>.</p>
                     <br/>
                     <h2>Mock-Up</h2>
-                    <Image src={Project2a} className="Project2a" />
-                    <Image src={Project2b} className="Project2b" />
+                    <Image src={Project2a} id="Project2"></Image>
+                    <Image src={Project2b} id="Project2"></Image>
                     <br/>
                     <h2>Credits</h2>
                     <h3>Damon Burda</h3>
