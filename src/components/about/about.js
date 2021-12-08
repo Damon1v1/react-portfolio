@@ -17,10 +17,10 @@ function About() {
           id="about"
         >
           <Row>
-          <Col><Card.Img src={Damon} className="portrait" style={{ height: "90%" }} /></Col>
+          <Col><Card.Text id="banner"> Damon Burda </Card.Text></Col>
           </Row>
           <Row>
-          <Col xl={12}><Card.Text id="banner" style={{ fontSize: "10rem" }}> Damon Burda </Card.Text></Col>
+          <Col><Card.Img src={Damon} id="portrait" /></Col>
           </Row>
             <Row><Card.Body>
             <Col xs={12}>
