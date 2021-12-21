@@ -24,7 +24,7 @@ function About() {
           </Row>
             <Row><Card.Body>
             <Col xs={12}>
-            <Card.Text id="bio" style={{ fontSize: "1.5rem" }}>
+            <Card.Text id="bio" style={{ fontSize: "2.5rem" }}>
                       Web developer from a food service background consolidating leadership, teamwork skills, 
                       and quick problem solving ability from a fast-paced work environment to build a sleek and 
                       intuitive user experience on the web. Helped my restaurant achieve the fastest service times company wide 
