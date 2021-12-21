@@ -1,5 +1,6 @@
 import emailjs from "emailjs-com";
 import React from "react";
+import {Form, Button} from "react-bootstrap"
 
 function ContactForm() {
     
@@ -16,29 +17,19 @@ function ContactForm() {
     };
 
     return (
-      <form className="block form-horizontal" id="contact-form" onSubmit={sendEmail}>
-        <h1 className="block-header">Contact</h1>
-        <hr />
-        <div className="mb-3">
-          <label for="exampleInputName1" className="col-sm-2 form-label">Name</label>
-          <div className="col-sm-5">
-            <input className="form-control" id="nameInput" placeholder="Name" name="name"/>
-          </div>
-        </div>
-        <div className="mb-3">
-          <label id="exampleInputEmail" className="col-sm-2 form-label">E-mail</label>
-          <div className="col-sm-5">
-            <input type="email" className="form-control" id="emailInput"  placeholder="E-mail" name="email"/>
-          </div>
-        </div>
-        <div className="mb-3">
-          <label id="exampleInputMessage1" className="col-sm-2 form-label">Message</label>
-          <div className="col-sm-5">
-            <input className="form-control" rows="3" id="messageInput" placeholder="Message" name="message" />
-          </div>
-        </div>
-        <button type="submit" class="btn btn-dark">Submit</button>
-      </form>
+      <Form>
+        <Form.Group className="mb-3" controlId="exampleForm.ControlInput1">
+          <Form.Label>Email address</Form.Label>
+          <Form.Control type="email" placeholder="name@example.com" />
+        </Form.Group>
+        <Form.Group className="mb-3" controlId="exampleForm.ControlTextarea1">
+          <Form.Label>Message</Form.Label>
+          <Form.Control as="textarea" rows={3} />
+        </Form.Group>
+        <Button variant="dark" type="submit" className="btn-lg" id="submit">
+          Submit
+        </Button>
+      </Form>
     );
 };
 
