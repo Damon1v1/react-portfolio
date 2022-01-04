@@ -13,7 +13,7 @@ class Links extends Component {
     
     render() {
       return (
-      <div>
+      <div id="contact">
         {this.state.visible ? <Contact />: null }
         <Row>
           <h1> Get in touch with me! </h1>

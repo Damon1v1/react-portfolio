@@ -12,7 +12,7 @@ function Portfolio() {
     return(
         <article className="block" >
           <Row>
-            <div id="PortfolioHead">Portfolio</div>
+            <div id="portfolio">Portfolio</div>
           </Row>
           <Row>
             
