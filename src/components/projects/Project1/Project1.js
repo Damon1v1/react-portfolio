@@ -17,18 +17,18 @@ const Project1 = () => {
     return (
         <div>
             <div>
-                <Button variant="dark" id="Button" onClick={() => setState({ isPaneOpenBottom: true})}>
+                <Button variant="dark" id="Button" onClick={() => setState({ isPaneOpen: true})}>
                     Movieferee
                 </Button>
             </div>
             <SlidingPane 
             closeIcon={<div><FontAwesomeIcon icon={faTimesCircle} /></div>}
             className="close"
-            isOpen={state.isPaneOpenBottom}
+            isOpen={state.isPaneOpen}
             title="Movieferee"
             from="bottom"
             width="100%"
-            onRequestClose={() => setState({ isPaneOpenBottom: false })}>
+            onRequestClose={() => setState({ isPaneOpen: false })}>
                 <div>
                     <h1>Movie application that reccomends movies to the user to watch</h1>
                     <br/>
@@ -52,27 +52,6 @@ const Project1 = () => {
                     <h2>Deployment</h2>
                     <p>You can view the repository and deployment <a href="https://github.com/Damon1v1/Movie-Recommender"> here</a>.</p>
                     <br/>
-                    <h2>Credits</h2>
-                    <h3>Damon Burda</h3>
-                    <ul>
-                        <li><a href="https://github.com/Damon1v1">Github</a></li>
-                        <li><a href="https://www.linkedin.com/in/damon-burda-4ab6a01b7/">LinkedIn</a></li>
-                    </ul>
-                    <h3>Noreldin Saad</h3>
-                    <ul>
-                        <li><a href="https://github.com/Noreldin-S">Github</a></li>
-                        <li><a href="https://www.linkedin.com/in/noreldin-saad-835930108/">LinkedIn</a></li>
-                    </ul>
-                    <h3>Ernie Perez</h3>
-                    <ul>
-                        <li><a href="https://github.com/jep1220?tab=repositories">Github</a></li>
-                        <li><a href="https://www.linkedin.com/in/juan-perez-aa2653139/">LinkedIn</a></li>
-                    </ul>
-                    <h3>Jessica Chen</h3>
-                    <ul>
-                        <li><a href="https://github.com/jiayc1">Github</a></li>
-                        <li><a href="https://www.linkedin.com/in/jchen52/">LinkedIn</a></li>
-                    </ul>
                 </div>
             </SlidingPane>
         </div>

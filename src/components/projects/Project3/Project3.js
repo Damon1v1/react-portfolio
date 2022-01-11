@@ -16,18 +16,18 @@ const Project3 = () => {
     return (
         <div>
             <div>
-                <Button variant="dark" id="Button" onClick={() => setState({ isPaneOpenBottom: true})}>
+                <Button variant="dark" id="Button" onClick={() => setState({ isPaneOpen: true})}>
                     Bandstand
                 </Button>
             </div>
             <SlidingPane 
             closeIcon={<div><FontAwesomeIcon icon={faTimesCircle} /></div>}
             className="close"
-            isOpen={state.isPaneOpenBottom}
+            isOpen={state.isPaneOpen}
             title="Bandstand"
             from="bottom"
             width="100%"
-            onRequestClose={() => setState({ isPaneOpenBottom: false })}>
+            onRequestClose={() => setState({ isPaneOpen: false })}>
                 <div>
                     <h1>MERN Stack application to chat with your friends while listening to music</h1>
                     <br/>
@@ -46,35 +46,6 @@ const Project3 = () => {
                     <br/>
                     <h2>Deployment</h2>
                     <p>You can view the repository and live deployment <a href="https://github.com/Damon1v1/Bandstand"> here</a>.</p>
-                    <br/>
-                    <h2>Install</h2>
-                    <p>You can run the application locally on your localhost! Run npm i in your terminal and then npm start once your packages are finished installing/</p>
-                    <br/>
-                    <h2>Credits</h2>
-                    <h3>Damon Burda</h3>
-                    <ul>
-                        <li><a href="https://github.com/Damon1v1">Github</a></li>
-                        <li><a href="https://www.linkedin.com/in/damon-burda-4ab6a01b7/">LinkedIn</a></li>
-                    </ul>
-                    <h3>Andy Nguyen</h3>
-                    <ul>
-                        <li><a href="https://github.com/Ydna317">Github</a></li>
-                        <li><a href="https://www.linkedin.com/in/andyphuocnguyen/">LinkedIn</a></li>
-                    </ul>
-                    <h3>Shakofa Mahmody</h3>
-                    <ul>
-                        <li><a href="https://github.com/shakofa">Github</a></li>
-                        <li><a href="https://www.linkedin.com/in/shakofa-mahmody-2328a3193/">LinkedIn</a></li>
-                    </ul>
-                    <h3>Dane Laban</h3>
-                    <ul>
-                        <li><a href="https://github.com/DaneLaban">Github</a></li>
-                    </ul>
-                    <h3>David Cox</h3>
-                    <ul>
-                        <li><a href="https://github.com/Dcoxmen">Github</a></li>
-                        <li><a href="https://www.linkedin.com/in/david-cox-78b88b44/">LinkedIn</a></li>
-                    </ul>
                 </div>
             </SlidingPane>
         </div>

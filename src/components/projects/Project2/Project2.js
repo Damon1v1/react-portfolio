@@ -17,18 +17,18 @@ const Project2 = () => {
     return (
         <div>
             <div>
-                <Button variant="dark" id="Button" onClick={() => setState({ isPaneOpenBottom: true})}>
+                <Button variant="dark" id="Button" onClick={() => setState({ isPaneOpen: true})}>
                     Release The Kringle!
                 </Button>
             </div>
             <SlidingPane 
             closeIcon={<div><FontAwesomeIcon icon={faTimesCircle} /></div>}
             className="close"
-            isOpen={state.isPaneOpenBottom}
+            isOpen={state.isPaneOpen}
             title="Release The Kringle!"
             from="bottom"
             width="100%"
-            onRequestClose={() => setState({ isPaneOpenBottom: false })}>
+            onRequestClose={() => setState({ isPaneOpen: false })}>
                 <div>
                     <h1>Slepptu Kringlunni! The finest kringle bakery storefront</h1>
                     <br/>
@@ -44,31 +44,12 @@ const Project2 = () => {
                         <li>Kringle Rewards rewards page for logged in users to use their Kringle Kash</li>
                     </ul>
                     <br/>
-                    <h2>Deployment</h2>
-                    <p>You can view the repository and live deployment <a href="https://github.com/Damon1v1/Release-The-Kringle"> here</a>.</p>
-                    <br/>
                     <h2>Mock-Up</h2>
                     <Image src={Project2a} id="Project2" />
                     <Image src={Project2b} id="Project2" />
                     <br/>
-                    <h2>Credits</h2>
-                    <h3>Damon Burda</h3>
-                    <ul>
-                        <li><a href="https://github.com/Damon1v1">Github</a></li>
-                        <li><a href="https://www.linkedin.com/in/damon-burda-4ab6a01b7/">LinkedIn</a></li>
-                    </ul>
-                    <h3>Kristina Wallace</h3>
-                    <ul>
-                        <li><a href="https://github.com/kjwallac">Github</a></li>
-                    </ul>
-                    <h3>Brett Roeder</h3>
-                    <ul>
-                        <li><a href="https://github.com/mirewolf">Github</a></li>
-                    </ul>
-                    <h3>Jessica Chen</h3>
-                    <ul>
-                        <li><a href="https://github.com/jiayc1">Github</a></li>
-                    </ul>
+                    <h2>Deployment</h2>
+                    <p>You can view the repository and live deployment <a href="https://github.com/Damon1v1/Release-The-Kringle"> here</a>.</p>
                 </div>
             </SlidingPane>
         </div>
