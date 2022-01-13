@@ -14,3 +14,11 @@ div.project-card {
     font-size: 10vw;
     color: black;
 }
+
+#submit{
+    font-size: 20px;
+}
+
+.form-control{
+    font-size: 20px;
+}
