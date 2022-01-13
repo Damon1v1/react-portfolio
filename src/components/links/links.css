@@ -5,3 +5,7 @@ h1 {
 .btn{
     font-family: 'Zen Kaku Gothic Antique', sans-serif;
 }
+
+#btnText {
+    font-size: 20px;
+}

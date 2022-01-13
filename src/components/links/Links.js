@@ -21,9 +21,9 @@ class Links extends Component {
 
         <Row>
           <ButtonGroup size="lg" className="mb-2">
-            <Button variant="dark" size="sm" href="https://github.com/Damon1v1"><FontAwesomeIcon icon={faGithub}></FontAwesomeIcon> Github </Button>
-            <Button variant="dark" size="sm" href="https://www.linkedin.com/in/damon-burda-4ab6a01b7/"><FontAwesomeIcon icon={faLinkedin}></FontAwesomeIcon> LinkedIn</Button>
-            <Button variant="dark" style={{ float: "right" }} onClick={() => {
+            <Button variant="dark" size="sm" id="btnText" href="https://github.com/Damon1v1"><FontAwesomeIcon icon={faGithub}></FontAwesomeIcon> Github </Button>
+            <Button variant="dark" size="sm" id="btnText" href="https://www.linkedin.com/in/damon-burda-4ab6a01b7/"><FontAwesomeIcon icon={faLinkedin}></FontAwesomeIcon> LinkedIn</Button>
+            <Button variant="dark" id="btnText" style={{ float: "right" }} onClick={() => {
               this.setState({ visible: !this.state.visible });
             }}>Contact Me</Button>
           </ButtonGroup>
