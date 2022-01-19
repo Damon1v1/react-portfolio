@@ -1,9 +1,8 @@
 import  React, { useEffect } from "react";
 import { Row } from "react-bootstrap";
 import "./home.css";
-import "../../components/about/About";
-import About from "../../components/about/About";
-import Portfolio from "../portfolio/Portfolio";
+import About from "../../components/about/about";
+import Portfolio from "../portfolio/portfolio";
 import Links from "../../components/links/Links";
 import Aos from "aos";
 import "aos/dist/aos.css";
