@@ -1,5 +1,5 @@
 h1 {
-    font-family: 'Zen Kaku Gothic Antique', sans-serif
+    font-family: 'Zen Kaku Gothic Antique', sans-serif;
 }
 
 .btn{
@@ -8,4 +8,8 @@ h1 {
 
 #btnText {
     font-size: 20px;
+}
+
+#contact{
+    margin-top: 100px;
 }

@@ -17,9 +17,9 @@ import "./portfolio.css"
 
 function Portfolio() {
     return(
-        <article className="block" >
+        <article className="block" id="portfolio">
           <Row>
-            <div id="portfolio">Portfolio</div>
+            <div id="header">Portfolio</div>
           </Row>
           
             <Row>

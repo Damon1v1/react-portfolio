@@ -8,7 +8,11 @@ div.project-card {
     margin-bottom: 20px;
 }
 
-#portfolio {
+#portfolio{
+    padding: 10px;
+}
+
+#header {
     font-family: 'Bebas Neue', cursive;
     text-align: center;
     font-size: 10vw;
