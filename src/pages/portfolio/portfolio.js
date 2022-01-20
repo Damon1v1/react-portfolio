@@ -24,14 +24,14 @@ function Portfolio() {
           
             <Row>
             <Col xl="6"><Card className="project-card" style={{ width: '40rem' }}> 
-              <Card.Img variant="top" src={Movieferee} />
+              <Card.Img variant="top" src={Movieferee} id="Movieferee"/>
               <Card.Body>
                 <Project1 />
               </Card.Body>
             </Card></Col>
 
             <Col xl="6"><Card className="project-card" style={{ width: '40rem' }}>
-              <Card.Img variant="top" src={Kringle} />
+              <Card.Img variant="top" src={Kringle} id="Kringle"/>
               <Card.Body>
                 <Project2 />
               </Card.Body>
@@ -40,7 +40,7 @@ function Portfolio() {
 
             <Row>
             <Col xl="6"><Card className="project-card" style={{ width: '40rem' }}>
-              <Card.Img variant="top" src={Bandstand} />
+              <Card.Img variant="top" src={Bandstand} id="Bandstand"/>
               <Card.Body>
                 <Project3 />
               </Card.Body>
@@ -48,7 +48,7 @@ function Portfolio() {
 
             
             <Col xl="6"><Card className="project-card" style={{ width: '40rem' }}>
-              <Card.Img variant="top" src={TechBlog} />
+              <Card.Img variant="top" src={TechBlog} id="TechBlog"/>
               <Card.Body>
                 <Project4 />
               </Card.Body>
@@ -57,14 +57,14 @@ function Portfolio() {
 
             <Row>
             <Col xl="6"><Card className="project-card" style={{ width: '40rem' }}>
-              <Card.Img variant="top" src={Budget} />
+              <Card.Img variant="top" src={Budget} id="Budget"/>
               <Card.Body>
                 <Project5 />
               </Card.Body>
             </Card></Col>
 
             <Col xl="6"><Card className="project-card" style={{ width: '40rem' }}>
-              <Card.Img variant="top" src={Tracker} />
+              <Card.Img variant="top" src={Tracker} id="Tracker"/>
               <Card.Body>
                 <Project6 />
               </Card.Body>
