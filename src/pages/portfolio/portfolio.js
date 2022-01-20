@@ -23,14 +23,14 @@ function Portfolio() {
           </Row>
           
             <Row>
-            <Col xl="6"><Card className="project-card" style={{ width: '40rem' }}> 
+            <Col xl="6"><Card className="project-card" style={{ width: '35rem' }}> 
               <Card.Img variant="top" src={Movieferee} id="Movieferee"/>
               <Card.Body>
                 <Project1 />
               </Card.Body>
             </Card></Col>
 
-            <Col xl="6"><Card className="project-card" style={{ width: '40rem' }}>
+            <Col xl="6"><Card className="project-card" style={{ width: '35rem' }}>
               <Card.Img variant="top" src={Kringle} id="Kringle"/>
               <Card.Body>
                 <Project2 />
@@ -39,7 +39,7 @@ function Portfolio() {
             </Row>
 
             <Row>
-            <Col xl="6"><Card className="project-card" style={{ width: '40rem' }}>
+            <Col xl="6"><Card className="project-card" style={{ width: '35rem' }}>
               <Card.Img variant="top" src={Bandstand} id="Bandstand"/>
               <Card.Body>
                 <Project3 />
@@ -47,7 +47,7 @@ function Portfolio() {
             </Card></Col> 
 
             
-            <Col xl="6"><Card className="project-card" style={{ width: '40rem' }}>
+            <Col xl="6"><Card className="project-card" style={{ width: '35rem' }}>
               <Card.Img variant="top" src={TechBlog} id="TechBlog"/>
               <Card.Body>
                 <Project4 />
@@ -56,14 +56,14 @@ function Portfolio() {
             </Row>
 
             <Row>
-            <Col xl="6"><Card className="project-card" style={{ width: '40rem' }}>
+            <Col xl="6"><Card className="project-card" style={{ width: '35rem' }}>
               <Card.Img variant="top" src={Budget} id="Budget"/>
               <Card.Body>
                 <Project5 />
               </Card.Body>
             </Card></Col>
 
-            <Col xl="6"><Card className="project-card" style={{ width: '40rem' }}>
+            <Col xl="6"><Card className="project-card" style={{ width: '35rem' }}>
               <Card.Img variant="top" src={Tracker} id="Tracker"/>
               <Card.Body>
                 <Project6 />
