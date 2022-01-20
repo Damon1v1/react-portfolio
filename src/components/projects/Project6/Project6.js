@@ -42,8 +42,8 @@ const Project5 = () => {
                     </ul>
                     <br/>
                     <h2>Mock-Up</h2>
-                    <Image src={Tracker1} id="Exercises" />
-                    <Image src={Tracker2} id="Pie" />
+                    <Image src={Tracker1} id="Project6" />
+                    <Image src={Tracker2} id="Project6" />
                     <br/>
                     <h2>Deployment</h2>
                     <p>You can view the repository and live deployment <a href="https://github.com/Damon1v1/Fitness-Tracker"> here</a>.</p>

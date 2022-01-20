@@ -43,7 +43,7 @@ const Project4 = () => {
                     </ul>
                     <br/>
                     <h2>Mock-Up</h2>
-                    <Image src={TechBlog} id="TechBlog" />
+                    <Image src={TechBlog} id="Project4" />
                     <br/>
                     <h2>Deployment</h2>
                     <p>You can view the repository and live deployment <a href="https://github.com/Damon1v1/Tech-Blog"> here</a>.</p>

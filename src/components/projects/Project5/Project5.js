@@ -4,7 +4,6 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faTimesCircle } from "@fortawesome/free-solid-svg-icons";
 import SlidingPane from "react-sliding-pane";
 import Budget1 from "./Budget1.png";
-import Budget2 from "./Budget2.png"
 import "react-sliding-pane/dist/react-sliding-pane.css";
 import "../Pane.css";
 
@@ -42,8 +41,7 @@ const Project5 = () => {
                     </ul>
                     <br/>
                     <h2>Mock-Up</h2>
-                    <Image src={Budget1} id="Transactions" />
-                    <Image src={Budget2} id="Graph" />
+                    <Image src={Budget1} id="Project5" />
                     <br/>
                     <h2>Deployment</h2>
                     <p>You can view the repository and live deployment <a href="https://github.com/Damon1v1/Online-Offline-Budget-Tracker"> here</a>.</p>
