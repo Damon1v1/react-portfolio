@@ -30,7 +30,7 @@ function ContactForm() {
           <Form.Label>Message</Form.Label>
           <Form.Control as="textarea" rows={3} name="message"/>
         </Form.Group>
-        <Button variant="dark" type="submit" className="btn-lg" id="submit">
+        <Button variant="dark" type="submit" className="btn-lg" id="submit" value="Send" name="submit">
           Submit
         </Button>
       </Form>
