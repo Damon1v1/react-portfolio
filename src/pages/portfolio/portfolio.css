@@ -19,6 +19,14 @@ div.project-card {
     color: black;
 }
 
+#header2{
+    font-family: 'Bebas Neue', cursive;
+    text-align: center;
+    font-size: 4vw;
+    color: black;
+    margin-top: -40px;
+}
+
 #submit{
     font-size: 20px;
 }

@@ -21,7 +21,9 @@ function Portfolio() {
           <Row>
             <div id="header">Portfolio</div>
           </Row>
-          
+          <Row>
+            <div id="header2">Click the title buttons to learn more!</div>
+          </Row>
             <Row>
             <Col xl="6"><Card className="project-card" style={{ width: '35rem' }}> 
               <Card.Img variant="top" src={Movieferee} id="Movieferee"/>
