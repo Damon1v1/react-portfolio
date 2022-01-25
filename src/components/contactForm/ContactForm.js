@@ -10,6 +10,7 @@ function ContactForm() {
         emailjs.sendForm('service_ms3pqzu', 'template_xyz2ifp', e.target, 'user_SRRmmWyKKFX7KcIeNiaLa')
             .then((result) => {
             console.log(result.text);
+            alert("Message Sent!");
             }, (error) => {
             console.log(error.text);
             });
