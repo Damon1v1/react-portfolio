@@ -7,17 +7,16 @@ function ContactForm() {
     function sendEmail(e) {
         e.preventDefault();
 
-        emailjs.sendForm('gmail', 'template_xyz2ifp', e.target, 'user_SRRmmWyKKFX7KcIeNiaLa')
+        emailjs.sendForm('gmail', 'template_xyz2ifp', Form.current, 'user_SRRmmWyKKFX7KcIeNiaLa')
             .then((result) => {
             console.log(result.text);
             }, (error) => {
             console.log(error.text);
             });
-        e.target.reset();
     };
 
     return (
-      <Form className="ContactForm" onSubmit={sendEmail}>
+      <Form ref={Form} className="ContactForm" onSubmit={sendEmail}>
         <Form.Group className="mb-3">
           <Form.Label>Name</Form.Label>
           <Form.Control type="name" placeholder="John Doe" name="name" />
