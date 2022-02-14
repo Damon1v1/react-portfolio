@@ -1,0 +1,41 @@
+{
+  "files": {
+    "main.css": "/static/css/main.c502d0fc.chunk.css",
+    "main.js": "/static/js/main.cf91d43e.chunk.js",
+    "main.js.map": "/static/js/main.cf91d43e.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.dcc434e9.js",
+    "runtime-main.js.map": "/static/js/runtime-main.dcc434e9.js.map",
+    "static/css/2.59874651.chunk.css": "/static/css/2.59874651.chunk.css",
+    "static/js/2.f24b63d4.chunk.js": "/static/js/2.f24b63d4.chunk.js",
+    "static/js/2.f24b63d4.chunk.js.map": "/static/js/2.f24b63d4.chunk.js.map",
+    "static/js/3.ca3efc1d.chunk.js": "/static/js/3.ca3efc1d.chunk.js",
+    "static/js/3.ca3efc1d.chunk.js.map": "/static/js/3.ca3efc1d.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/2.59874651.chunk.css.map": "/static/css/2.59874651.chunk.css.map",
+    "static/css/main.c502d0fc.chunk.css.map": "/static/css/main.c502d0fc.chunk.css.map",
+    "static/js/2.f24b63d4.chunk.js.LICENSE.txt": "/static/js/2.f24b63d4.chunk.js.LICENSE.txt",
+    "static/media/Budget1.c8a63864.png": "/static/media/Budget1.c8a63864.png",
+    "static/media/Project1a.ca6ae296.png": "/static/media/Project1a.ca6ae296.png",
+    "static/media/Project1b.dadbe536.png": "/static/media/Project1b.dadbe536.png",
+    "static/media/Project2a.3f6424a5.png": "/static/media/Project2a.3f6424a5.png",
+    "static/media/Project2b.c9eb55a2.png": "/static/media/Project2b.c9eb55a2.png",
+    "static/media/Project3a.c5bec784.png": "/static/media/Project3a.c5bec784.png",
+    "static/media/Tracker1.75f84ed2.png": "/static/media/Tracker1.75f84ed2.png",
+    "static/media/Tracker2.7cb00fba.png": "/static/media/Tracker2.7cb00fba.png",
+    "static/media/doodle.efb25fc5.png": "/static/media/doodle.efb25fc5.png",
+    "static/media/project1.e63756ea.png": "/static/media/project1.e63756ea.png",
+    "static/media/project2.61a77159.png": "/static/media/project2.61a77159.png",
+    "static/media/project3.7ad9330e.png": "/static/media/project3.7ad9330e.png",
+    "static/media/project4.eb824839.png": "/static/media/project4.eb824839.png",
+    "static/media/project5.0ed8d14a.png": "/static/media/project5.0ed8d14a.png",
+    "static/media/project6.7a37493a.png": "/static/media/project6.7a37493a.png",
+    "static/media/techblog.eb824839.png": "/static/media/techblog.eb824839.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.dcc434e9.js",
+    "static/css/2.59874651.chunk.css",
+    "static/js/2.f24b63d4.chunk.js",
+    "static/css/main.c502d0fc.chunk.css",
+    "static/js/main.cf91d43e.chunk.js"
+  ]
+}
